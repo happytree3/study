@@ -845,7 +845,7 @@ public class ProSearch {
 RangeQueryBuilder sQuery = QueryBuilders.rangeQuery("price")
     .gte(10)   // 가격이 10 이상
     .lte(100); // 가격이 100 이하
-	=>> 기본적으로 엘라스틱서치에서 제공하는 로직.
+	=>> 기본적으로 엘라스틱서치에서 제공하는 로직
 */
 
     public QueryBuilder getDateRange(String field, String start, String end, String format) {
