@@ -9,7 +9,7 @@ public class EncoderTest {
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		
 		String encoText = "colrCd:(05 OR 17)";
-		// 파라미터를 URL에 적합하게 인코딩
+
 		String encodedParam = URLEncoder.encode(encoText, "UTF-8");
 		            
 		// 서버에서 API 호출을 위해 URL을 구성
